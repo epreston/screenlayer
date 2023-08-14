@@ -2,6 +2,10 @@
 
 2D Rendering Layer for the Web
 
+[![NPM version][npm-badge]][npm-url]
+[![License][license-badge]][license-url]
+[![CI][ci-badge]][ci-url]
+
 ## Setup
 
 Download and install [Node.js](https://nodejs.org/en/download/).
@@ -54,3 +58,10 @@ npm run dev
 ## License
 
 This project is released under the MIT [License](LICENSE).
+
+[ci-badge]: https://github.com/epreston/screenlayer/actions/workflows/ci.yml/badge.svg
+[ci-url]: https://github.com/epreston/screenlayer/actions
+[npm-badge]: https://img.shields.io/npm/v/screenlayer
+[npm-url]: https://www.npmjs.com/package/screenlayer
+[license-badge]: https://img.shields.io/npm/l/screenlayer.svg?cacheSeconds=2592000
+[license-url]: LICENSE
