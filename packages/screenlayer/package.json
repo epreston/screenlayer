@@ -1,0 +1,31 @@
+{
+  "name": "screenlayer",
+  "version": "0.0.1",
+  "description": "2D Rendering Layer for the Web",
+  "type": "module",
+  "module": "./dist/screenlayer.esm-bundler.js",
+  "exports": "./dist/screenlayer.esm-bundler.js",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "buildOptions": {
+    "formats": [
+      "esm-bundler"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epreston/screenlayer.git",
+    "directory": "packages/screenlayer"
+  },
+  "keywords": [
+    "screenlayer", "2D"
+  ],
+  "author": "Ed Preston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epreston/screenlayer/issues"
+  },
+  "homepage": "https://github.com/epreston/screenlayer/blob/main/packages/screenlayer#readme"
+}
