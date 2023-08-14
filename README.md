@@ -1,6 +1,6 @@
-# Vite with Vitest Web Project
+# screenlayer
 
-Repo Template: vite, vitest, eslint.
+2D Rendering Layer for the Web
 
 ## Setup
 
@@ -18,16 +18,17 @@ npm run dev
 
 ## Commands
 
-| Action        | Command                 | Description                                               |
-| ------------- | ----------------------- | --------------------------------------------------------- |
-| dev           | `npm run dev`           | Start a development server                                |
-| build         | `npm run build`         | Create a production build into "dist"                     |
-| preview       | `npm run preview`       | Start a local server to preview production build          |
-| start         | `npm run start`         | Start a dev server and open in web browser                |
-| lint          | `npm run lint`          | Run static code analysis                                  |
-| test          | `npm run test`          | Run unit tests                                            |
-| test-watch    | `npm run test-watch`    | Watch for changes and run tests                           |
-| test-coverage | `npm run test-coverage` | Generate a test coverage report                           |
+| Action        | Command                 | Description                                |
+| ------------- | ----------------------- | ------------------------------------------ |
+| dev           | `npm run dev`           | Start a development server                 |
+| build         | `npm run build`         | Create a production build into "dist"      |
+| start         | `npm run start`         | Start a dev server and open in web browser |
+| lint          | `npm run lint`          | Run static code analysis                   |
+| test          | `npm run test`          | Run unit tests                             |
+| test-watch    | `npm run test-watch`    | Watch for changes and run tests            |
+| test-coverage | `npm run test-coverage` | Generate a test coverage report            |
+| format        | `npm run format`        | Format source files                        |
+| format-check  | `npm run format-check`  | Check if source files require formatting   |
 
 ## Tools
 
@@ -52,4 +53,4 @@ npm run dev
 
 ## License
 
-This template is released under the MIT [License](LICENSE).
+This project is released under the MIT [License](LICENSE).
