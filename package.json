@@ -23,12 +23,12 @@
     "format-check": "prettier --check --cache \"**/*.[tj]s?(x)\""
   },
   "devDependencies": {
-    "@vitest/coverage-v8": "^0.34.3",
-    "eslint": "^8.48.0",
+    "@vitest/coverage-v8": "^0.34.4",
+    "eslint": "^8.49.0",
     "eslint-config-prettier": "^9.0.0",
     "jsdom": "^22.1.0",
     "prettier": "^3.0.3",
     "vite": "^4.4.9",
-    "vitest": "^0.34.3"
+    "vitest": "^0.34.4"
   }
 }
