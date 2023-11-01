@@ -7,9 +7,6 @@
   "workspaces": [
     "packages/*"
   ],
-  "engines": {
-    "node": ">=18.18.0 || >=20.0.0"
-  },
   "browserslist": "Chrome >= 112, ChromeAndroid >= 112, Edge >= 112, Firefox >= 112, FirefoxAndroid  >= 112,  Safari >= 16.4, iOS >= 16.4, not dead",
   "scripts": {
     "dev": "vite",
@@ -30,5 +27,8 @@
     "prettier": "^3.0.3",
     "vite": "^4.5.0",
     "vitest": "^0.34.6"
+  },
+  "engines": {
+    "node": "^18.18.0 || >=20.9.0"
   }
 }
