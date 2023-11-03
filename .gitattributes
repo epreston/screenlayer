@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+* text=auto eol=lf
 
 # Files to remove from language stats for this project
 # *.css linguist-vendored
@@ -10,10 +10,15 @@
 # *.py linguist-vendored
 CHANGELOG.md export-ignore
 
-LICENSE.txt eol=crlf
+LICENSE eol=crlf
 
 *.bat eol=crlf
 *.cmd eol=crlf
 *.ps1 eol=lf
 *.sh eol=lf
 *.rtf -text
+
+# Binary file types.
+*.webp binary
+*.png binary
+*.jpg binary
