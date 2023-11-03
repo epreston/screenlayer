@@ -2,8 +2,8 @@
   "private": true,
   "type": "module",
   "name": "@screenlayer/monorepo",
-  "version": "0.0.1",
-  "description": "2D Rendering Layer for the Web",
+  "version": "0.0.2",
+  "packageManager": "npm@10.2.2",
   "workspaces": [
     "packages/*"
   ],
@@ -20,6 +20,7 @@
     "format-check": "prettier --check --cache \"**/*.[tj]s?(x)\""
   },
   "devDependencies": {
+    "@epreston/tsconfig": "^1.0.1",
     "@vitest/coverage-v8": "^0.34.6",
     "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
