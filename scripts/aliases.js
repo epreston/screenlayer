@@ -1,5 +1,3 @@
-// @ts-check
-
 // based on vue/core mono repo build system
 
 // these aliases are shared between vitest and rollup
