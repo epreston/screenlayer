@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 import './css/style.css';
 import viteLogoUrl from './img/vite.svg';
 import { Clock } from 'screenlayer';
