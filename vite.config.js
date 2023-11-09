@@ -3,7 +3,7 @@
 // import types for vitest config autocomplete
 /// <reference types="vitest" />
 
-import { defineConfig } from 'vite';
+import { configDefaults, defineConfig } from 'vitest/config';
 import { entries } from './scripts/aliases.js';
 
 // https://vitejs.dev/config/
@@ -21,7 +21,6 @@ export default defineConfig({
   resolve: {
     alias: entries
   },
-  // plugins: [vue(), splitVendorChunkPlugin()],
   build: {
     target: ['es2022', 'edge112', 'firefox112', 'chrome112', 'safari16.4', 'ios16.4']
   },
@@ -29,6 +28,17 @@ export default defineConfig({
     // globals: true,
     // disable threads on GH actions to speed it up
     threads: !process.env.GITHUB_ACTIONS,
-    setupFiles: ['./scripts/vitest-setup.js']
+    setupFiles: ['./scripts/vitest-setup.js'],
+    sequence: {
+      hooks: 'list'
+    },
+    coverage: {
+      provider: 'v8',
+      reporter: ['text-summary', 'html'],
+      exclude: [
+        ...configDefaults.coverage.exclude
+        // entries that skew coverage reports here
+      ]
+    }
   }
 });
