@@ -5,13 +5,6 @@
   "tasks": [
     {
       "type": "npm",
-      "script": "dev",
-      "problemMatcher": [],
-      "label": "npm: dev",
-      "detail": "vite"
-    },
-    {
-      "type": "npm",
       "script": "build",
       "group": {
         "kind": "build",
@@ -23,59 +16,21 @@
     },
     {
       "type": "npm",
-      "script": "preview",
+      "script": "test",
       "problemMatcher": [],
-      "label": "npm: preview",
-      "detail": "vite preview",
-      "presentation": {
-        "echo": true,
-        "panel": "dedicated"
+      "label": "npm: test",
+      "detail": "vitest run",
+      "group": {
+        "kind": "test",
+        "isDefault": true
       }
     },
     {
       "type": "npm",
-      "script": "start",
-      "problemMatcher": [],
-      "label": "npm: start",
-      "detail": "vite --open"
-    },
-    {
-      "type": "npm",
       "script": "lint",
-      "problemMatcher": [
-        "$eslint-stylish"
-      ],
+      "problemMatcher": ["$eslint-stylish"],
       "label": "npm: lint",
-      "detail": "eslint --ext .js ."
-    },
-    {
-      "type": "npm",
-      "script": "test",
-      "group": {
-        "kind": "test",
-        "isDefault": true
-      },
-      "problemMatcher": [],
-      "label": "npm: test",
-      "detail": "vitest run"
-    },
-    {
-      "type": "npm",
-      "script": "test-watch",
-      "group": "test",
-      "problemMatcher": [],
-      "label": "npm: test-watch",
-      "detail": "vitest"
-    },
-    {
-      "type": "npm",
-      "script": "test-coverage",
-      "group": {
-        "kind": "test"
-      },
-      "problemMatcher": [],
-      "label": "npm: test-coverage",
-      "detail": "vitest run --coverage"
+      "detail": "eslint --ext .js --report-unused-disable-directives --env-info ."
     }
   ]
 }
