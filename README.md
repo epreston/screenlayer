@@ -20,7 +20,7 @@ npm install
 npm run dev
 ```
 
-## Commands
+## Scripts
 
 | Action        | Command                 | Description                                |
 | ------------- | ----------------------- | ------------------------------------------ |
@@ -31,8 +31,8 @@ npm run dev
 | test          | `npm run test`          | Run unit tests                             |
 | test-watch    | `npm run test-watch`    | Watch for changes and run tests            |
 | test-coverage | `npm run test-coverage` | Generate a test coverage report            |
-| format        | `npm run format`        | Format source files                        |
-| format-check  | `npm run format-check`  | Check if source files require formatting   |
+| format        | `npm run format`        | Check source file formatting               |
+| format-fix    | `npm run format-fix`    | Format source files                        |
 
 ## Tools
 
