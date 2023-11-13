@@ -1,0 +1,31 @@
+{
+  "name": "@screenlayer/components",
+  "version": "0.0.1",
+  "description": "ScreenLayer vue component library",
+  "type": "module",
+  "module": "./dist/components.esm-bundler.js",
+  "exports": "./dist/components.esm-bundler.js",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "buildOptions": {
+    "formats": [
+      "esm-bundler"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epreston/screenlayer.git",
+    "directory": "packages/components"
+  },
+  "keywords": [
+    "vue3","components", "screenlayer", "2D"
+  ],
+  "author": "Ed Preston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epreston/screenlayer/issues"
+  },
+  "homepage": "https://github.com/epreston/screenlayer/blob/main/packages/components#readme"
+}
