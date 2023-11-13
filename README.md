@@ -1,6 +1,6 @@
 # screenlayer
 
-2D Rendering Layer for the Web
+2D Presentation Layer for Web Applications
 
 [![NPM version][npm-badge]][npm-url]
 [![License][license-badge]][license-url]
