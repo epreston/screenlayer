@@ -1,7 +1,7 @@
 {
   "name": "screenlayer",
-  "version": "0.0.1",
-  "description": "2D Rendering Layer for the Web",
+  "version": "0.0.2",
+  "description": "2D Presentation Layer for Web Applications",
   "type": "module",
   "module": "./dist/screenlayer.esm-bundler.js",
   "exports": "./dist/screenlayer.esm-bundler.js",
@@ -20,7 +20,7 @@
     "directory": "packages/screenlayer"
   },
   "keywords": [
-    "screenlayer", "2D"
+    "screenlayer", "2D", "vue3"
   ],
   "author": "Ed Preston",
   "license": "MIT",
