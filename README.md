@@ -34,6 +34,12 @@ This is the convenience package to make core packages available to your project 
 | ------------- | ------------------------------------ | ----------- |
 | `screenlayer` | [![NPM version][npm-badge]][npm-url] | bundle      |
 
+## Libraries
+
+| Library | Reference          |
+| ------- | ------------------ |
+| vuejs   | https://vuejs.org/ |
+
 ## Tools
 
 | Tool         | Reference                      |
@@ -53,7 +59,6 @@ This is the convenience package to make core packages available to your project 
 
 | Website       | Reference                  |
 | ------------- | -------------------------- |
-| vuejs         | https://vuejs.org/         |
 | Can I Use     | https://caniuse.com        |
 | Browserslist  | https://browsersl.ist      |
 | convertacolor | https://convertacolor.com/ |
