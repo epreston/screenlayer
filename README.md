@@ -6,20 +6,6 @@
 [![License][license-badge]][license-url]
 [![CI][ci-badge]][ci-url]
 
-## Setup
-
-Download and install [Node.js](https://nodejs.org/en/download/).
-
-Run the following commands:
-
-```bash
-# install dependencies
-npm install
-
-# start a local server in development mode
-npm run dev
-```
-
 ## Scripts
 
 | Action        | Command                 | Description                                |
@@ -34,6 +20,20 @@ npm run dev
 | format        | `npm run format`        | Check source file formatting               |
 | format-fix    | `npm run format-fix`    | Format source files                        |
 
+## Structure
+
+This repository employs a [monorepo](https://en.wikipedia.org/wiki/Monorepo) setup which hosts a number of associated packages under the `packages` directory. They can be used in any combination and define minimum dependencies between each other.
+
+| Package      | Version                                           | Description |
+| ------------ | ------------------------------------------------- | ----------- |
+| `components` | [![components][components-badge]][components-url] |             |
+
+This is the convenience package to make core packages available to your project with a single dependency.
+
+| Package       | Version                              | Description |
+| ------------- | ------------------------------------ | ----------- |
+| `screenlayer` | [![NPM version][npm-badge]][npm-url] | bundle      |
+
 ## Tools
 
 | Tool         | Reference                      |
@@ -45,11 +45,15 @@ npm run dev
 | Prettier     | https://prettier.io            |
 | EditorConfig | https://editorconfig.org       |
 | jsdom        | https://github.com/jsdom/jsdom |
+| rollup.js    | https://rollupjs.org           |
+| esbuild      | https://esbuild.github.io      |
+| mswjs        | https://mswjs.io               |
 
 ## References
 
 | Website       | Reference                  |
 | ------------- | -------------------------- |
+| vuejs         | https://vuejs.org/         |
 | Can I Use     | https://caniuse.com        |
 | Browserslist  | https://browsersl.ist      |
 | convertacolor | https://convertacolor.com/ |
