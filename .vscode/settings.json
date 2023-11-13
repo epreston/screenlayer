@@ -28,7 +28,13 @@
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },
-  "cSpell.words": ["behavior", "convertacolor", "picocolors", "screenlayer"],
+  "cSpell.words": [
+    "behavior",
+    "convertacolor",
+    "picocolors",
+    "pinia",
+    "screenlayer"
+  ],
   "cSpell.ignoreWords": [
     "autodocs",
     "epreston",
