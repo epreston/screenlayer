@@ -53,6 +53,7 @@ This is the convenience package to make core packages available to your project 
 | rollup.js    | https://rollupjs.org           |
 | esbuild      | https://esbuild.github.io      |
 | mswjs        | https://mswjs.io               |
+| storybook    | https://storybook.js.org/      |
 
 ## References
 
