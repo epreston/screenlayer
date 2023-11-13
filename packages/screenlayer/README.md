@@ -5,12 +5,19 @@
 [![NPM version][npm-badge]][npm-url]
 [![License][license-badge]][license-url]
 
+`screenlayer` is a number of associated packages that can be used in any combination. They define the minimum dependencies between each other for efficient builds and simple reuse. This is a convenience package to make core packages available to your project with a single dependency.
 
 ## Install
 
 ```bash
 npm i screenlayer
 ```
+
+## References
+
+| Website | Reference          |
+| ------- | ------------------ |
+| vuejs   | https://vuejs.org/ |
 
 ## License
 
