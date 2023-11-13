@@ -69,3 +69,5 @@ This project is released under the MIT [License](LICENSE).
 [npm-url]: https://www.npmjs.com/package/screenlayer
 [license-badge]: https://img.shields.io/npm/l/screenlayer.svg?cacheSeconds=2592000
 [license-url]: LICENSE
+[components-badge]: https://img.shields.io/npm/v/@screenlayer/components
+[components-url]: https://www.npmjs.com/package/@screenlayer/components
