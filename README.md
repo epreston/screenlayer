@@ -10,12 +10,11 @@
 
 | Action        | Command                 | Description                                |
 | ------------- | ----------------------- | ------------------------------------------ |
-| dev           | `npm run dev`           | Start a development server                 |
-| build         | `npm run build`         | Create a production build into "dist"      |
+| build         | `npm run build`         | Build all modules                          |
 | start         | `npm run start`         | Start a dev server and open in web browser |
 | lint          | `npm run lint`          | Run static code analysis                   |
-| test          | `npm run test`          | Run unit tests                             |
-| test-watch    | `npm run test-watch`    | Watch for changes and run tests            |
+| test          | `npm run test`          | Run unit tests and exit                    |
+| test-watch    | `npm run test-watch`    | Watch for changes and re-run tests         |
 | test-coverage | `npm run test-coverage` | Generate a test coverage report            |
 | format        | `npm run format`        | Check source file formatting               |
 | format-fix    | `npm run format-fix`    | Format source files                        |
