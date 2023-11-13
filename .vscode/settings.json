@@ -29,5 +29,10 @@
     "files.trimTrailingWhitespace": false
   },
   "cSpell.words": ["behavior", "convertacolor", "picocolors", "screenlayer"],
-  "cSpell.ignoreWords": ["epreston", "execa", "iife"]
+  "cSpell.ignoreWords": [
+    "autodocs",
+    "epreston",
+    "execa",
+    "iife"
+  ]
 }
