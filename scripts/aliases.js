@@ -14,7 +14,7 @@ const entries = {
   screenlayer: resolveEntryForPkg('screenlayer')
 };
 
-const nonSrcPackages = ['utils', 'size-check'];
+const nonSrcPackages = ['eslint-config', 'tsconfig'];
 
 for (const dir of dirs) {
   const key = `@screenlayer/${dir}`;
