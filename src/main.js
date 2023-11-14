@@ -1,21 +1,14 @@
-/* eslint-disable no-console */
+// import './assets/main.css';
 
-import './css/style.css';
-import viteLogoUrl from './img/vite.svg';
-import { Clock } from 'screenlayer';
+// import { createApp } from 'vue';
+// import { createPinia } from 'pinia';
 
-const ticker = new Clock();
+// import App from './App.vue';
+// import router from './router';
 
-ticker.start();
+// const app = createApp(App);
 
-document.querySelector('#app').innerHTML = `
-  <a href="https://vitejs.dev" target="_blank">
-    <img src="${viteLogoUrl}" class="logo" alt="Vite logo" />
-  </a>
-  <h1>Hello Vite !</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`;
+// app.use(createPinia());
+// app.use(router);
 
-ticker.stop();
-
-console.log(`Loaded in ${ticker.getElapsedTime()}`);
+// app.mount('#app');
