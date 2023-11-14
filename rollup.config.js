@@ -12,6 +12,7 @@ import terser from '@rollup/plugin-terser';
 
 // 3rd party Rollup plugins
 import esbuild from 'rollup-plugin-esbuild';
+import vue from '@vitejs/plugin-vue';
 
 import pico from 'picocolors';
 import { entries } from './scripts/aliases.js';
@@ -219,6 +220,7 @@ function createConfig(format, output, plugins = []) {
         entries
       }),
       ...resolveReplace(),
+      vue(),
       esbuild({
         tsconfig: path.resolve(__dirname, 'tsconfig.json'),
         sourceMap: output.sourcemap,
