@@ -21,7 +21,6 @@ coverage
 
 # Distribution Directory
 dist
-dist/*
 
 # Optional eslint cache
 .eslintcache
@@ -29,13 +28,13 @@ dist/*
 # TypeScript cache
 *.tsbuildinfo
 
-# Private working notes
-/notes
+# Storybook build
+apps/design/stories
+storybook-static
 
-# Temp folder
+# Temp folders
 temp
-
-# esbuild meta
+/notes
 /meta
 
 # ignore non-npm lockfiles
