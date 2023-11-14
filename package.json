@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "name": "@screenlayer/monorepo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "packageManager": "npm@10.2.3",
   "workspaces": [
     "apps/*",
