@@ -12,9 +12,9 @@ function getAbsolutePath(value) {
 const config = {
   stories: [
     '../../../packages/components/src/**/*.stories.@(js|jsx|mjs|ts|tsx)',
-    '../src/components/**/*.stories.js',
-    '../src/**/*.mdx',
-    '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'
+    '../../../packages/components/src/**/*.mdx',
+    '../stories/**/*.mdx',
+    '../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)'
   ],
   addons: [
     '@storybook/addon-links',
@@ -30,4 +30,5 @@ const config = {
     autodocs: 'tag'
   }
 };
+
 export default config;
