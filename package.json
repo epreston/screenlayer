@@ -34,7 +34,8 @@
     "test-watch": "vitest",
     "test-coverage": "vitest run --coverage.enabled",
     "format": "prettier --check --cache \"**/*.[tj]s?(x)\"",
-    "format-fix": "prettier --write --cache \"**/*.[tj]s?(x)\""
+    "format-fix": "prettier --write --cache \"**/*.[tj]s?(x)\"",
+    "storybook": "cd apps/design && npm run dev"
   },
   "devDependencies": {
     "@epreston/eslint-config": "^1.1.0",
@@ -57,6 +58,10 @@
     "typescript": "^5.2.2",
     "vite": "^4.5.0",
     "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.3.8"
   },
   "engines": {
     "node": "^18.18.0 || >=20.9.0"
