@@ -6,7 +6,7 @@
   "module": "./dist/components.esm-bundler.js",
   "exports": "./dist/components.esm-bundler.js",
   "files": [
-    "dist"
+    "dist/**"
   ],
   "sideEffects": false,
   "buildOptions": {
@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/epreston/screenlayer/issues"
   },
-  "homepage": "https://github.com/epreston/screenlayer/blob/main/packages/components#readme"
+  "homepage": "https://github.com/epreston/screenlayer/blob/main/packages/components#readme",
+  "dependencies": {
+    "vue": "^3.3.8"
+  }
 }
