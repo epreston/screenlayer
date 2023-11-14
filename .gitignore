@@ -30,6 +30,7 @@ dist
 
 # Storybook build
 apps/design/stories
+build-storybook.log
 storybook-static
 
 # Temp folders
