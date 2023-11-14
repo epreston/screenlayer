@@ -4,6 +4,8 @@
 /// <reference types="vitest" />
 
 import { configDefaults, defineConfig } from 'vitest/config';
+import vue from '@vitejs/plugin-vue';
+
 import { entries } from './scripts/aliases.js';
 
 // https://vitejs.dev/config/
@@ -18,6 +20,7 @@ export default defineConfig({
     __ESM_BROWSER__: false,
     __NODE_JS__: true
   },
+  plugins: [vue()],
   resolve: {
     alias: entries
   },
