@@ -14,6 +14,9 @@
     /* Emit */
     "outDir": "temp"
   },
+  "vueCompilerOptions": {
+    "target": 3.3
+  },
   "include": [
     "src",
     "test",
