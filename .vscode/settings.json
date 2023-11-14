@@ -1,6 +1,5 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-  "editor.formatOnSave": true,
   // Use the project's typescript version
   "typescript.tsdk": "node_modules/typescript/lib",
   "files.trimTrailingWhitespace": true,
@@ -27,11 +26,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
+    "editor.formatOnSave": true,
     "files.trimTrailingWhitespace": false
   },
-  "emmet.includeLanguages": {
-    "vue-html": "html",
-    "vue": "html"
+  "[vue]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "cSpell.words": ["behavior", "convertacolor", "picocolors", "pinia", "screenlayer", "taskbox"],
   "cSpell.ignoreWords": ["autodocs", "epreston", "execa", "iife"]
