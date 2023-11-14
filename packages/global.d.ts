@@ -4,7 +4,7 @@
 
 // additional import types not included in vite/client
 
-declare module '*.vue' {}
+// declare module '*.vue' {}
 
 // Global compile-time constants
 declare var __DEV__: boolean;
