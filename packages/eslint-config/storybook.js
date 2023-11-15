@@ -5,5 +5,6 @@ module.exports = {
     '@vue/eslint-config-prettier/skip-formatting',
     'plugin:storybook/recommended',
     'plugin:mdx/recommended'
-  ]
+  ],
+  ignorePatterns: ['storybook-static']
 };
