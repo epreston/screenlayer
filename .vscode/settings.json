@@ -33,6 +33,15 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.words": ["behavior", "convertacolor", "picocolors", "pinia", "screenlayer", "taskbox"],
+  "cSpell.words": [
+    "behavior",
+    "convertacolor",
+    "mswjs",
+    "picocolors",
+    "pinia",
+    "screenlayer",
+    "taskbox",
+    "vuejs"
+  ],
   "cSpell.ignoreWords": ["autodocs", "epreston", "execa", "iife"]
 }
