@@ -1,5 +1,3 @@
-// vite.config.js
-
 // import types for vitest config autocomplete
 /// <reference types="vitest" />
 
@@ -25,7 +23,7 @@ export default defineConfig({
     alias: entries
   },
   build: {
-    target: ['es2022', 'edge112', 'firefox112', 'chrome112', 'safari16.4', 'ios16.4']
+    target: ['es2022']
   },
   test: {
     // globals: true,
