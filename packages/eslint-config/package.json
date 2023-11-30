@@ -4,10 +4,10 @@
   "private": true,
   "license": "MIT",
   "devDependencies": {
-    "@epreston/eslint-config": "^1.1.0",
+    "@epreston/eslint-config": "^1.1.1",
     "@vue/eslint-config-prettier": "^8.0.0",
     "eslint-plugin-mdx": "^2.2.0",
     "eslint-plugin-storybook": "^0.6.15",
-    "eslint-plugin-vue": "^9.9.0"
+    "eslint-plugin-vue": "^9.19.2"
   }
 }
