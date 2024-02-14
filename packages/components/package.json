@@ -32,6 +32,6 @@
   },
   "homepage": "https://github.com/epreston/screenlayer/blob/main/packages/components#readme",
   "peerDependencies": {
-    "vue": "^3.4.18"
+    "vue": "^3.4.19"
   }
 }
