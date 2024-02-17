@@ -7,7 +7,7 @@
     "@epreston/eslint-config": "^1.1.1",
     "@vue/eslint-config-prettier": "^9.0.0",
     "eslint-plugin-mdx": "^3.1.5",
-    "eslint-plugin-storybook": "^0.6.15",
+    "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-vue": "^9.21.1"
   }
 }
