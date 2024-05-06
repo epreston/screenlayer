@@ -24,7 +24,7 @@
     "react-dom": "^18.3.1",
     "rimraf": "^5.0.5",
     "storybook": "^8.0.10",
-    "vite": "^5.2.10"
+    "vite": "^5.2.11"
   },
   "dependencies": {
     "pinia": "^2.1.7",
