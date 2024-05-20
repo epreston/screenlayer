@@ -54,7 +54,7 @@
     "execa": "^8.0.1",
     "jsdom": "^24.0.0",
     "minimist": "^1.2.8",
-    "picocolors": "^1.0.0",
+    "picocolors": "^1.0.1",
     "prettier": "^3.2.5",
     "pretty-bytes": "^6.1.1",
     "rimraf": "^5.0.7",
