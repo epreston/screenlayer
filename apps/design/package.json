@@ -13,7 +13,7 @@
     "clean": "rimraf -g node_modules"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^8.0.8",
+    "@storybook/addon-essentials": "^8.1.3",
     "@storybook/addon-interactions": "^8.1.1",
     "@storybook/addon-links": "^8.1.1",
     "@storybook/blocks": "^8.0.9",
