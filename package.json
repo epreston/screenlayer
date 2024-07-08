@@ -41,7 +41,7 @@
     "storybook": "cd apps/design && npm run dev"
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^1.1.1",
+    "@epreston/eslint-config": "^1.1.2",
     "@epreston/prettier-config": "^2.0.0",
     "@epreston/tsconfig": "^1.2.0",
     "@rollup/plugin-alias": "^5.1.0",
