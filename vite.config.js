@@ -27,6 +27,7 @@ export default defineConfig({
   },
   test: {
     // globals: true,
+    pool: 'forks',
     setupFiles: ['./scripts/setup-vitest.js'],
     sequence: {
       hooks: 'list'
@@ -34,9 +35,11 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       reporter: ['text-summary', 'html'],
+      ignoreEmptyLines: true,
       exclude: [
-        ...configDefaults.coverage.exclude
-        // entries that skew coverage reports here
+        ...configDefaults.coverage.exclude,
+        // entries that skew coverage reports below
+        'scripts/**'
       ]
     }
   }
