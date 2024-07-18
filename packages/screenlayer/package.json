@@ -1,14 +1,14 @@
 {
+  "type": "module",
+  "sideEffects": false,
   "name": "screenlayer",
   "version": "0.0.2",
   "description": "2D Presentation Layer for Web Applications",
-  "type": "module",
   "module": "./dist/screenlayer.esm-bundler.js",
   "exports": "./dist/screenlayer.esm-bundler.js",
   "files": [
     "dist"
   ],
-  "sideEffects": false,
   "buildOptions": {
     "formats": [
       "esm-bundler"
@@ -20,12 +20,12 @@
     "directory": "packages/screenlayer"
   },
   "keywords": [
-    "screenlayer", "2D", "vue3"
+    "screenlayer",
+    "2D",
+    "vue3"
   ],
   "author": "Ed Preston",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/epreston/screenlayer/issues"
-  },
+  "bugs": "https://github.com/epreston/screenlayer/issues",
   "homepage": "https://github.com/epreston/screenlayer/blob/main/packages/screenlayer#readme"
 }
