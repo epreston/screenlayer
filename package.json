@@ -3,7 +3,6 @@
   "type": "module",
   "name": "@screenlayer/monorepo",
   "version": "0.0.4",
-  "packageManager": "npm@10.4.0",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -23,6 +22,10 @@
     "extends": "@epreston/eslint-config"
   },
   "prettier": "@epreston/prettier-config",
+  "packageManager": "npm@10.7.0",
+  "engines": {
+    "node": "^18.19.0 || >=20.11.0"
+  },
   "scripts": {
     "start": "vite --open",
     "dev": "vite",
@@ -58,13 +61,10 @@
     "rollup-plugin-esbuild": "^6.1.1",
     "typescript": "^5.5.4",
     "vite": "^5.3.5",
-    "vitest": "^2.0.3"
+    "vitest": "^2.0.5"
   },
   "dependencies": {
-    "pinia": "^2.2.0",
-    "vue": "^3.4.35"
-  },
-  "engines": {
-    "node": "^18.19.0 || >=20.11.0"
+    "pinia": "^2.2.1",
+    "vue": "^3.4.36"
   }
 }
