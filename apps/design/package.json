@@ -15,7 +15,7 @@
   "devDependencies": {
     "@storybook/addon-essentials": "^8.3.2",
     "@storybook/addon-interactions": "^8.3.2",
-    "@storybook/addon-links": "^8.3.2",
+    "@storybook/addon-links": "^8.3.4",
     "@storybook/blocks": "^8.3.2",
     "@storybook/testing-library": "^0.2.2",
     "@storybook/vue3": "^8.2.7",
