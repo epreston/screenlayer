@@ -16,7 +16,7 @@
     "outDir": "temp"
   },
   "vueCompilerOptions": {
-    "target": 3.4
+    "target": 3.5
   },
   "include": [
     "src",

@@ -19,8 +19,7 @@ const defaultTasks = [
  * You can read more about Pinia defineStore in the docs:
  * https://pinia.vuejs.org/core-concepts/
  */
-export const useTaskStore = defineStore({
-  id: 'taskbox',
+export const useTaskStore = defineStore('taskbox', {
   state: () => ({
     tasks: defaultTasks,
     status: 'idle',
