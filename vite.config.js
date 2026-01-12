@@ -23,7 +23,7 @@ export default defineConfig({
     alias: entries
   },
   build: {
-    target: ['es2022']
+    target: ['es2024']
   },
   test: {
     // globals: true,
