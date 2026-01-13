@@ -2,6 +2,7 @@
   "name": "screenlayer-design",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "storybook dev --disable-telemetry -p 6006",
     "build": "storybook build",
@@ -13,16 +14,15 @@
     "clean": "rimraf -g -v node_modules"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^8.4.1",
-    "@storybook/addon-interactions": "^8.3.6",
-    "@storybook/addon-links": "^8.4.2",
-    "@storybook/blocks": "^8.3.5",
+    "@storybook/addon-docs": "^10.1.11",
+    "@storybook/addon-links": "^10.1.11",
     "@storybook/testing-library": "^0.2.2",
-    "@storybook/vue3": "^8.4.1",
-    "@storybook/vue3-vite": "^8.3.6",
-    "rimraf": "^6.0.1",
-    "storybook": "^8.6.15",
-    "vite": "^5.4.21"
+    "@storybook/vue3": "^10.1.11",
+    "@storybook/vue3-vite": "^10.1.11",
+    "eslint-plugin-storybook": "10.1.11",
+    "rimraf": "^6.1.2",
+    "storybook": "^10.1.11",
+    "vite": "^7.3.1"
   },
   "dependencies": {
     "pinia": "^3.0.4",

@@ -1,6 +1,6 @@
 import Task from './Task.vue';
 
-import { action } from '@storybook/addon-actions';
+import { action } from 'storybook/actions';
 
 export default {
   component: Task,

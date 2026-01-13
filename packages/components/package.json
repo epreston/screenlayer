@@ -30,6 +30,6 @@
   "bugs": "https://github.com/epreston/screenlayer/issues",
   "homepage": "https://github.com/epreston/screenlayer/blob/main/packages/components#readme",
   "peerDependencies": {
-    "vue": "^3.4.33"
+    "vue": "^3.5.26"
   }
 }
