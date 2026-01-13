@@ -10,10 +10,6 @@
   "browserslist": [
     "baseline 2025"
   ],
-  "eslintConfig": {
-    "root": true,
-    "extends": "@epreston/eslint-config"
-  },
   "prettier": "@epreston/prettier-config",
   "packageManager": "npm@11.7.0",
   "engines": {
@@ -25,7 +21,7 @@
     "build": "node scripts/build.js",
     "check-types": "tsc --project tsconfig.json --incremental --allowJs --checkJs --noEmit",
     "clean": "rimraf -g -v packages/*/dist temp .eslintcache",
-    "lint": "eslint --ext .vue,.js,.jsx,.cjs,.mjs --report-unused-disable-directives .",
+    "lint": "eslint --ext .js,.cjs,.mjs --report-unused-disable-directives .",
     "test": "vitest run",
     "test-watch": "vitest",
     "test-coverage": "vitest run --coverage.enabled",
@@ -34,7 +30,7 @@
     "storybook": "cd apps/design && npm run dev"
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^1.1.2",
+    "@epreston/eslint-config": "^2.3.0",
     "@epreston/prettier-config": "^2.1.0",
     "@epreston/tsconfig": "^1.2.1",
     "@rollup/plugin-alias": "^6.0.0",
@@ -43,7 +39,7 @@
     "@rollup/plugin-terser": "^0.4.4",
     "@vitejs/plugin-vue": "^6.0.3",
     "@vitest/coverage-v8": "^4.0.17",
-    "eslint": "^8.57.0",
+    "eslint": "^9.39.2",
     "execa": "^9.6.1",
     "jsdom": "^27.4.0",
     "minimist": "^1.2.8",
