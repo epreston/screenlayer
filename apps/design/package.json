@@ -19,7 +19,7 @@
     "@storybook/testing-library": "^0.2.2",
     "@storybook/vue3": "^10.1.11",
     "@storybook/vue3-vite": "^10.2.0",
-    "eslint-plugin-storybook": "10.1.11",
+    "eslint-plugin-storybook": "10.2.0",
     "rimraf": "^6.1.2",
     "storybook": "^10.2.0",
     "vite": "^7.3.1"
