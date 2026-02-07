@@ -4,8 +4,8 @@
   "name": "@screenlayer/components",
   "version": "0.0.1",
   "description": "ScreenLayer vue component library",
-  "module": "./dist/components.esm-bundler.js",
-  "exports": "./dist/components.esm-bundler.js",
+  "module": "./index.js",
+  "exports": "./index.js",
   "files": [
     "dist/**"
   ],
