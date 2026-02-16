@@ -8,6 +8,6 @@
     "@vue/eslint-config-prettier": "^10.2.0",
     "eslint-plugin-mdx": "^3.6.2",
     "eslint-plugin-storybook": "^10.2.4",
-    "eslint-plugin-vue": "^10.7.0"
+    "eslint-plugin-vue": "^10.8.0"
   }
 }
