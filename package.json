@@ -30,16 +30,16 @@
     "storybook": "cd apps/design && npm run dev"
   },
   "devDependencies": {
-    "@epreston/eslint-config": "^2.3.0",
+    "@epreston/eslint-config": "^2.4.2",
     "@epreston/prettier-config": "^2.1.1",
     "@epreston/tsconfig": "^1.2.2",
     "@rollup/plugin-alias": "^6.0.0",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-replace": "^6.0.3",
     "@rollup/plugin-terser": "^1.0.0",
-    "@vitejs/plugin-vue": "^6.0.4",
-    "@vitest/coverage-v8": "^4.0.18",
-    "eslint": "^10.0.2",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "@vitest/coverage-v8": "^4.1.0",
+    "eslint": "^10.0.3",
     "execa": "^9.6.1",
     "jsdom": "^28.1.0",
     "minimist": "^1.2.8",
@@ -50,10 +50,10 @@
     "rollup-plugin-esbuild": "^6.2.1",
     "typescript": "^5.9.3",
     "vite": "^7.3.1",
-    "vitest": "^4.0.17"
+    "vitest": "^4.1.0"
   },
   "dependencies": {
     "pinia": "^3.0.4",
-    "vue": "^3.5.29"
+    "vue": "^3.5.30"
   }
 }
