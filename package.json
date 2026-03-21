@@ -41,7 +41,7 @@
     "@vitest/coverage-v8": "^4.1.0",
     "eslint": "^10.0.3",
     "execa": "^9.6.1",
-    "jsdom": "^28.1.0",
+    "jsdom": "^29.0.1",
     "minimist": "^1.2.8",
     "picocolors": "^1.1.1",
     "prettier": "^3.8.1",
