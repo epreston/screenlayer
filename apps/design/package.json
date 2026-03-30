@@ -17,7 +17,7 @@
     "@storybook/addon-docs": "^10.2.19",
     "@storybook/addon-links": "^10.2.19",
     "@storybook/testing-library": "^0.2.2",
-    "@storybook/vue3": "^10.2.19",
+    "@storybook/vue3": "^10.3.3",
     "@storybook/vue3-vite": "^10.3.2",
     "eslint-plugin-storybook": "10.3.2",
     "rimraf": "^6.1.3",
