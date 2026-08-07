@@ -4,10 +4,9 @@
   "compilerOptions": {
     /* Modules */
     "rootDir": ".",
-    "baseUrl": ".",
     "paths": {
-      "@screenlayer/*": ["packages/*/src"],
-      "screenlayer": ["packages/screenlayer/src"]
+      "@screenlayer/*": ["./packages/*/src"],
+      "screenlayer": ["./packages/screenlayer/src"]
     },
     "types": ["vitest/globals", "node"],
     "resolveJsonModule": true,
