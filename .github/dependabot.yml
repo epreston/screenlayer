@@ -14,3 +14,28 @@ updates:
     directory: /
     schedule:
       interval: monthly
+
+    groups:
+      # matching packages that must update together
+      vitest-ecosystem:
+        patterns:
+          - 'vitest'
+          - '@vitest/*'
+
+      storybook-ecosystem:
+        patterns:
+          - 'storybook'
+          - '@storybook/*'
+          - 'eslint-plugin-storybook'
+
+      npm-dev:
+        dependency-type: development
+        update-types:
+          - minor
+          - patch
+
+      npm-prod:
+        dependency-type: production
+        update-types:
+          - minor
+          - patch
