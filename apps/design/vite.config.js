@@ -5,6 +5,7 @@ import { entries } from '../../scripts/aliases.js';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  appType: 'mpa', // disable history fallback
   plugins: [vue()],
   resolve: {
     alias: entries
